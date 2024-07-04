@@ -10,6 +10,7 @@ function HeroSection() {
   return (
     <section
       className="mx-auto px-6 relative flex flex-col items-center justify-between py-4 lg:py-12">
+
       <img
         src="/hero.svg"
         alt="Hero"
@@ -23,7 +24,7 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-pink-500">Sayma Siddiqua Simu</span>
+            <span className=" text-fuchsia-500">Sayma Siddiqua Simu</span>
             {` , I'm a Professional `}
             <span className=" text-[#16f2b3]">Web Developer</span>
             .
@@ -33,35 +34,28 @@ function HeroSection() {
             <Link
               href="github"
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-fuchsia-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
             </Link>
             <Link
               href="linkedIn"
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-fuchsia-500 hover:scale-125 duration-300"
             >
               <BsLinkedin size={30} />
             </Link>
             <Link
               href="facebook"
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-fuchsia-500 hover:scale-125 duration-300"
             >
               <FaFacebook size={30} />
             </Link>
             <Link
-              href="leetcode"
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <SiLeetcode size={30} />
-            </Link>
-            <Link
               href="twitter"
               target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
+              className="transition-all text-fuchsia-500 hover:scale-125 duration-300"
             >
               <FaTwitterSquare size={30} />
             </Link>
@@ -75,7 +69,7 @@ function HeroSection() {
               </button>
             </Link>
 
-            <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href="resume"
+            <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-800 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href="resume"
             >
               <span>Get Resume</span>
               <MdDownload size={16} />

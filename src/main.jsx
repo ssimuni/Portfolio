@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Portfolio from './Pages/Portfolio';
+import About from './Pages/about/About';
 import Root from './layouts/Root';
 
 
