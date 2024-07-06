@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResumeCard = ({ title, subTitle, description, percentage }) => {
     return (
-        <div className='w-[450px] h-1/3 group flex'>
+        <div className='w-[650px] h-1/3 group flex'>
             <div className='border-glow w-10 h-[6px] bgOpacity mt-16 relative'>
                 <span className='border-glow absolute w-5 h-5 rounded-full flex justify-center items-center bg-black bg-opacity-60 -left-3 -top-2'>
                     <span className='border-glow w-3 h-3 rounded-full bg-red group-hover:bg-designColor duration-300'></span>

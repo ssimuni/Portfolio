@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
+import { Link } from 'react-router-dom'
+import { MdDownload } from "react-icons/md";
 
 const About = () => {
 
@@ -28,19 +29,21 @@ const About = () => {
                         About Me
                     </h1>
                     <p data-aos='fade-left '>
-                        Hello, I'm Chirag, a front-end developer. I have a passion for building innovative web applications. I graduated from the University of  Petroleum and Energy Studies with a specialization in cloud computing and virtualization. Proficient in web development, I have acquired experience in AWS tools. During my time at university, I developed a keen interest in web development and decided to pursue it as a career.
-                        <br />
-                        I have experience working with HTML, CSS, JavaScript, React, Redux,  SQL, and Git, and I'm always looking to expand my skill set. Eager to leverage this comprehensive skill set and contribute to innovative projects in the dynamic field of web development.
-                        <br />
-                        When I'm not coding, you can find me exploring new locations for an outing, hiking, or trying out new recipes in my kitchen. I'm a firm believer in work-life balance and strive to maintain a healthy lifestyle.
+                        Hello, I'm Sayma Siddiqua Simu, a passionate front-end developer dedicated to building innovative web applications. Currently, I'm pursuing my graduation from the University of Chittagong with a specialization in Computer Science and Engineering.
+                        <br></br>
+                        In my journey as a web developer, I have gained proficiency in HTML, CSS, JavaScript, React, Tailwind, Firebase, and MongoDB. Additionally, I have hands-on experience with Android Studio, which has broadened my understanding of mobile development. I'm always eager to learn and expand my skill set to keep up with the ever-evolving tech landscape.
+                        <br></br>
+                        I thrive on challenges and enjoy contributing to projects that push the boundaries of technology. My goal is to leverage my comprehensive skill set to contribute to innovative projects in the dynamic field of web development.
+                        <br></br>
+                        When I'm not immersed in coding, you can find me exploring new locations for an outing, hiking through nature trails, or experimenting with new recipes in my kitchen. I believe in maintaining a work-life balance and strive to lead a healthy lifestyle.
+                        <br></br>
+                        I look forward to connecting and collaborating with like-minded professionals who share my passion for technology and innovation.
                     </p>
-                    <div className='flex mt-8 gap-2 space-x-2 items-center justify-center'>
-                        <a href="" target="_blank">
-                            <div className='nano-button shadow-xl hover:shadow-fuchsia-800/50 border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg py-4 px-8 uppercase overflow-hidden'>
-                                Resume
-                            </div>
-                        </a>
-                    </div>
+                    <Link className="mt-5 flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-fuchsia-500 to-violet-800 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href=""
+                    >
+                        <span>Get Resume</span>
+                        <MdDownload size={16} />
+                    </Link>
                 </div>
             </div>
         </div>
